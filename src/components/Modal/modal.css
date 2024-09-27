@@ -1,0 +1,33 @@
+/* Modal content styling */
+.custom-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;/* 90% of the screen width on small screens */
+    max-width: 600px;/* But no larger than 600px */
+    height: auto;/* Auto height */
+
+    background-color: white;
+    padding: 35px;
+    border-radius: 40px;
+    /* border: 5px solid #3498db; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    /* Remove default outline */
+}
+
+/* Modal overlay styling */
+.custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
